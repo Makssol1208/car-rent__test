@@ -1,6 +1,6 @@
 .header {
   font-family: var(--font-primary);
-  background-color: var(--bg-header);
+  background-color: var(--dark-gray);
   margin-bottom: 64px;
 }
 
@@ -57,7 +57,7 @@ select {
 
 option {
   outline: none;
-  background-color: var(--bg-header);
+  background-color: var(--dark-gray);
 }
 
 .tel {

@@ -3,17 +3,22 @@
   --font-secondary: "Oxygen", sans-serif;
   --accent: #b68867;
   --primary-light: #c5a085;
-  --bg-header: #1e1e20;
+  --dark-gray: #1e1e20;
   --bg-body: #121214;
   --white: #fefeff;
   --white-70: #bdbdbe;
-  --white-50: #919192
+  --white-50: #919192;
+  --white-20: #4f4f51;
 }
 
 body {
   height: 100%;
   overflow-x: hidden;
   background-color: var(--bg-body);
+}
+
+.none {
+  display: none;
 }
 
 .header-container {
