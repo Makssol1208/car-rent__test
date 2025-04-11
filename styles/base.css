@@ -1,0 +1,22 @@
+:root {
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Oxygen", sans-serif;
+  --accent: #b68867;
+  --primary-light: #c5a085;
+  --bg-header: #1e1e20;
+  --bg-body: #121214;
+  --white: #fefeff;
+  --white-70: #bdbdbe;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--bg-body);
+}
+
+.header-container {
+  max-width: 1870px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
