@@ -1,6 +1,7 @@
 .header {
   font-family: var(--font-primary);
   background-color: var(--bg-header);
+  margin-bottom: 64px;
 }
 
 .header-row {
@@ -23,11 +24,6 @@
 .logo img {
   width: 126px;
   height: 15px;
-}
-
-.header-links {
-  display: flex;
-  column-gap: 24px;
 }
 
 .nav {
