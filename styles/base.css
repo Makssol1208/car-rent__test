@@ -13,6 +13,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   overflow-x: hidden;
   background-color: var(--bg-body);
@@ -32,4 +34,8 @@ body {
   max-width: 1494px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.wrapper {
+  flex: 1 auto;
 }

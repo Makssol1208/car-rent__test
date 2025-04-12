@@ -37,5 +37,38 @@ input::placeholder {
 }
 
 input:last-child {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.phone-container input {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+select {
+  position: relative;
+  width: 47px;
+  margin-right: 16px;
+  margin-left: 14px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-70);
+
+  outline: none;
+  border: none;
+  transition: 0.2s ease-in;
+}
+
+.phone-container {
+  padding: 12px 14px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  border: 1px solid var(--white-20);
+}
+
+.phone-container select option {
+  position: absolute;
 }
