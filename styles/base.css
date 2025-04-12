@@ -2,13 +2,14 @@
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Oxygen", sans-serif;
   --accent: #b68867;
-  --primary-light: #c5a085;
+  --accent-light: #c5a085;
   --dark-gray: #1e1e20;
   --bg-body: #121214;
   --white: #fefeff;
   --white-70: #bdbdbe;
   --white-50: #919192;
   --white-20: #4f4f51;
+  --white-10: #39393b;
 }
 
 body {
