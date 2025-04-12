@@ -1,3 +1,8 @@
+.extras {
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--white-20);
+}
+
 .extras-title {
   font-size: 24px;
   margin-bottom: 35px;
@@ -18,28 +23,28 @@
   background-color: var(--white-10);
 }
 
-.primary {
+.extras-card.primary {
   background-color: var(--accent);
 }
 
 .extras-img {
   display: inline-block;
-  width: 22px;
-  height: 10px;
-  margin: 16px 10px 0 10px;
+  width: 24px;
+  height: 24px;
+  margin: 10px 0 0 8px;
 }
 
 .extras-card__desc {
-  max-width: 188px;
+  max-width: 202px;
   max-height: 60px;
-  margin: 10px 0 0 16px;
+  margin-top: 10px;
   padding-left: 16px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .extras-card__title {
   font-size: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 }
 
 .extras-card__price {
@@ -64,4 +69,15 @@
   margin: 0 auto;
   width: 16px;
   height: 3px;
+}
+
+.extras-plus {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--white-20);
+  transition: 0.2s ease-in-out;
+}
+
+.extras-plus:hover {
+  background-color: #636364;
 }
