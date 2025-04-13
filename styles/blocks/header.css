@@ -39,7 +39,7 @@
 }
 
 .nav-list__link:hover {
-  color: var(--accent);
+  color: #ddbca3;
 }
 
 .header-right {
