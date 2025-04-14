@@ -57,6 +57,13 @@
                 <option value="value3">FR</option>
               </select>
               <a href="tel:+123 456 7890" class="tel">+123 456 7890</a>
+
+              <!-- ================= MOBILE NAV BUTTON ================= -->
+
+              <button type="button" class="mobile-nav-button">
+                <span class="mobile-nav-button__icon"></span>
+              </button>
+              <!-- ================= ./MOBILE NAV BUTTON ================= -->
               <a href="#!" class="signin">Sign In </a>
             </div>
           </nav>
@@ -66,6 +73,33 @@
 
       <!-- Main Content -->
       <main class="main">
+        <!-- MOBILE NAV -->
+        <div class="mobile-nav">
+          <nav class="mobile-nav-list">
+            <ul class="mobile-nav-items">
+              <li><a href="#!">Book</a></li>
+              <li><a href="#!">Help</a></li>
+              <li><a href="#!">FAQ</a></li>
+              <li><a href="#!">Rental Policies</a></li>
+              <li><a href="#!">Help Center</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-footer">
+            <button class="btn-signin">
+              Sign In <img src="./img/icons/signinmobile.svg" alt="Sign In" />
+            </button>
+            <div class="mobile-footer__contact">
+              <a href="tel:+123 456 7890" class="mobile-tel">+123 456 7890</a>
+              <select name="select">
+                <option value="value1" selected>EN</option>
+                <option value="value2">UA</option>
+                <option value="value3">FR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- ./MOBILE NAV -->
+
         <div class="container">
           <div class="head-links">
             <ul class="head-nav">
@@ -92,9 +126,7 @@
 
                   <div class="product-benefits">
                     <div class="product-benefits__head">
-                      <div class="product-benefits__title">
-                        Included in Price
-                      </div>
+                      <h4 class="product-benefits__title">Included in Price</h4>
                       <ul>
                         <li class="product-benefits__item">Airport/City Fee</li>
                         <li class="product-benefits__item">Local Tax</li>
@@ -141,7 +173,7 @@
                 </div>
               </div>
               <!-- ./Product -->
-
+              <button class="btn-tablet">Proceed to Booking</button>
               <!-- Add on Extras -->
               <div class="extras">
                 <h3 class="extras-title">Add on extras</h3>
@@ -467,7 +499,7 @@
       <!-- ./Main Content -->
 
       <!-- Contacts -->
-      <section class="contact">
+      <section class="contact ">
         <div class="contact-bg__img">
           <img src="./img/bg-contact.jpg" alt="Background Contacts" />
         </div>
@@ -491,7 +523,7 @@
       <!-- ./Contacts -->
 
       <!-- Footer -->
-      <footer class="footer">
+      <footer class="footer none">
         <div class="container">
           <div class="footer-content">
             <div class="footer-top">
@@ -527,5 +559,6 @@
       </footer>
       <!-- ./Footer -->
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 .header {
+  min-height: 72px;
   font-family: var(--font-primary);
   background-color: var(--dark-gray);
-  margin-bottom: 64px;
 }
 
 .header-row {
@@ -70,7 +70,7 @@ option {
   display: block;
   position: absolute;
   top: 0px;
-  left: -24px;
+  left: -25px;
 }
 
 .signin {
@@ -84,4 +84,31 @@ option {
   position: absolute;
   top: 1px;
   left: -26px;
+}
+
+@media (max-width: 1130px) {
+  .header-row {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+  .header-right {
+    column-gap: 40px;
+  }
+  .header-left {
+    column-gap: 55px;
+  }
+  .header-right select {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header-links,
+  .header-right select,
+  .signin {
+    display: none;
+  }
+  .header-right {
+    column-gap: 30px;
+  }
 }

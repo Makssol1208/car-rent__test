@@ -9,6 +9,8 @@
 @import "./blocks/form.css";
 @import "./blocks/order-info.css";
 @import "./blocks/buttons.css";
+@import "./blocks/mobile-nav-button.css";
+@import "./blocks/mobile-nav.css";
 @import "./blocks/insurance.css";
 @import "./blocks/contact.css";
 @import "./blocks/footer.css";

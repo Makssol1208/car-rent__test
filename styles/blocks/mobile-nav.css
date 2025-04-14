@@ -1,0 +1,79 @@
+.mobile-nav {
+  display: none;
+
+  position: fixed;
+  z-index: 99;
+  margin-top: 72px;
+  top: 0;
+  right: 0;
+  width: 420px;
+  height: 100vh;
+  font-family: var(--font-primary);
+  background-color: #2d2d2f;
+
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 50px;
+  padding: 38px 30px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.mobile-nav.active {
+  display: flex;
+}
+
+.mobile-nav-list {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.mobile-nav-list li a {
+  color: var(--white-70);
+  transition: 0.2s ease-in;
+}
+
+.mobile-nav-list li a:hover {
+  color: var(--white);
+}
+
+.mobile-footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.mobile-footer__contact {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.mobile-footer__contact a {
+  padding-left: 32px;
+}
+
+.mobile-tel {
+  position: relative;
+  color: var(--white-70);
+}
+
+@media (max-width: 1040px) {
+  .wrapper {
+    opacity: 1;
+  }
+  .mobile-tel:before {
+    content: url("./../../img/icons/phone.svg");
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+  }
+}

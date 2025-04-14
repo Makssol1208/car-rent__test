@@ -72,3 +72,27 @@
 .btn-footer:hover {
   opacity: 0.8;
 }
+
+/* Button Sign In Mobile */
+
+.btn-signin {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 8px;
+  padding: 18px 138px;
+  height: 56px;
+  color: var(--white);
+  background-color: var(--accent);
+  transition: 0.2s ease-in;
+}
+
+.btn-signin:hover {
+  opacity: 0.8;
+}
+
+/* Button Tablet */
+
+.btn-tablet {
+  display: none;
+}
