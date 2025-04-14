@@ -29,6 +29,10 @@ body {
   flex-direction: column;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .none {
   display: none;
 }

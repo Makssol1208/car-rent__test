@@ -12,6 +12,7 @@
 .footer-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 64px;
 }
 
 .footer-top__left h6 {
@@ -21,7 +22,6 @@
 .footer-top__right {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 32px;
   color: var(--white);
 }
 
