@@ -8,4 +8,5 @@ mobileNavButton.addEventListener("click", function () {
   mobileNav.classList.toggle("active");
   document.body.classList.toggle("no-scroll");
   document.body.classList.toggle("overflow");
+  mobileNav.classList.remove("overflow");
 });
