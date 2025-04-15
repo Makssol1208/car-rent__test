@@ -1,13 +1,13 @@
 .mobile-nav {
   display: none;
 
-  position: fixed;
+  position: absolute;
   z-index: 99;
-  margin-top: 72px;
   top: 0;
   right: 0;
-  width: 420px;
-  height: 100vh;
+  max-width: 420px;
+  width: 100%;
+  height: calc(100vh - 72px);
   font-family: var(--font-primary);
   background-color: #2d2d2f;
 
@@ -17,6 +17,18 @@
   row-gap: 50px;
   padding: 38px 30px;
   overflow: hidden;
+
+  animation: ani 0.5s forwards;
+  transition: all 0.5s ease-in;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(420px);
+  }
+  50% {
+    transform: translateY(0);
+  }
 }
 
 .mobile-nav.active {
@@ -36,7 +48,7 @@
 
 .mobile-nav-list li a {
   color: var(--white-70);
-  transition: 0.2s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .mobile-nav-list li a:hover {

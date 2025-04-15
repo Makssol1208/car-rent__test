@@ -157,7 +157,7 @@
   content: url("./../../img/ellipseproduct.svg");
   position: absolute;
   display: block;
-  top: -80px;
+  top: -52px;
   right: 0;
   z-index: -1;
 }
@@ -223,7 +223,7 @@
 
 @media (max-width: 849px) {
   .product {
-    width: 667px;
+    width: 640px;
   }
   .product-desc {
     width: 248px;
@@ -246,6 +246,11 @@
 }
 
 @media (max-width: 774px) {
+  .product {
+    width: 100%;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
   .product-benefits__bottom {
     max-width: unset;
   }
@@ -257,11 +262,6 @@
 @media (max-width: 710px) {
   .tel {
     display: none;
-  }
-  .product {
-    width: 100%;
-    flex-direction: column-reverse;
-    row-gap: 30px;
   }
   .product-desc {
     align-self: flex-start;

@@ -13,6 +13,10 @@
   --white-10: #39393b;
 }
 
+* {
+  transition: all 0.3s;
+}
+
 html,
 body {
   height: 100%;
@@ -53,6 +57,16 @@ body {
   width: 1870px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.body_overlay {
+  background: #212123cc;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 98;
 }
 
 @media (max-width: 1869px) {
