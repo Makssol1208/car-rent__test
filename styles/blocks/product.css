@@ -225,30 +225,64 @@
 
 @media (max-width: 849px) {
   .product {
-    width: 725px;
+    width: 667px;
+  }
+  .product-desc {
+    width: 248px;
   }
   .product-img {
     width: unset;
     height: unset;
   }
   .product-img img {
-    max-width: 344px;
+    max-width: 320px;
+    height: 187px;
   }
   .product-benefits__bottom {
     justify-content: unset;
+    column-gap: 30px;
   }
 }
 
 @media (max-width: 774px) {
-  .product {
-    width: 704px;
-    row-gap: 25px;
-    flex-direction: column-reverse;
+  .product-benefits__bottom {
+    max-width: unset;
   }
   .tel {
     display: none;
   }
   .mobile-nav {
     width: 393px !important;
+  }
+}
+
+@media (max-width: 710px) {
+  .product {
+    width: 100%;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+  .product-desc {
+    align-self: flex-start;
+  }
+  .btn-tablet {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .product-wrapper {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .product-img img {
+    width: 300px;
+    height: unset;
+  }
+}
+
+@media (max-width: 393px) {
+  .mobile-nav {
+    width: 320px !important;
   }
 }
