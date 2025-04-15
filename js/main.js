@@ -16,6 +16,7 @@ mobileNavButton.addEventListener("click", function () {
 document.addEventListener("mousedown", (e) => {
   if (!node.contains(e.target) && !mobileNavButton.contains(e.target)) {
     mobileNav.classList.remove("active");
+    mobileNavIcon.classList.remove("active");
     document.body.classList.remove("body_overlay");
     document.body.classList.remove("overflow");
   }
